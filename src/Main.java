@@ -23,13 +23,30 @@ public class Main {
     }
 }
 /*
-* Oppgave 1: Innkapsling
+* Oppgave 2
 
-Lag en klasse Book som i første omgang skal ha 3 instansvariabler: Title, Author og NumberOfPages.
-Lag en metode i Book som skriver ut (System.out.println) tilstanden til objektet – altså verdiene til de ulike instansvariablene.
-Lag gettere og settere for alle instansvariablene i Book. Sørg for å gi alle instansvariablene private access.
-Opprett et Book-objekt i main-metoden. Sett verdier for alle instansvariablene i objektet ved hjelp av setter-metodene.
-Test at objektet du lagde i e) har verdiene du forventer.
-Lag en enum Genre med verdiene (CRIME, ACTION, FANTASY, CLASSIC og OTHER). Lag enumen i en egen fil: Høyreklikk på src-mappen din-> new ->Java Class -> Velg Enum (og gi den riktig navn).
-Legg til en instansvariabel i Book slik at vi har informasjon om hvilken sjanger en bok tilhører.
-Forsøk å opprette en ny bok i main-metoden for å se om sjanger også fungerer.*/
+Opprett et nytt prosjekt. Hent inn Book-klassen og Genre-enumen du lagde i forrige modul. Du trenger også en klasse med en main-metode.
+
+Opprett en klasse BookRegister. Klassen skal ha en ArrayList som kan ta vare på bøker.
+
+I BookRegister:  Lag en metode for å legge inn en bok i registeret.
+
+I BookRegister:  Lag en metode som kan gi informasjon om hvor mange bøker som er lagt inn i registeret.
+
+Opprett registeret i main-metoden, og legg inn noen bøker der. Test at innleggingen av bøker fungerer.
+
+Lag noen metoder i registeret som kan gi informasjon om bøker i registeret:
+
+Alle registrerte bøker
+Bøker i en viss sjanger (metoden må ta imot en sjanger)
+Bøker skrevet av en spesifikk forfatter
+Kall på metodene fra main (etter at du har lagt inn noen bøker) og sjekk om metodene fungerer tilfredsstillende.
+
+Lag en klasse Chapter som holder på informasjon om
+
+Tittel på kapittelet
+Antall sider
+Antatt lesetid
+Utvid Book-klassen slik at den har en ArrayList som inneholder informasjon om alle kapitlene i boka.
+
+(Vanskelig) Lag en ny metode i bokregisteret som returnerer bøker som har en lesetid på mindre enn et gitt antall minutter.*/
